@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "lifetime capital gains exemption",
+    "ca_volume": 1900, "us_volume": 110, "total_volume": 2010,
+    "kd": 16, "kd_level": "MODERATE",
+    "trend": "STABLE", "cpc": 6.86, "competition": "LOW",
+    "score": 89, "decision": "WRITE NOW",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "business exit strategy",
+    "ca_volume": 110, "us_volume": 1000, "total_volume": 1110,
+    "kd": 9, "kd_level": "EASY",
+    "trend": "RISING", "cpc": 10.36, "competition": "LOW",
+    "score": 85, "decision": "WRITE NOW",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "family business succession planning",
+    "ca_volume": 170, "us_volume": 3600, "total_volume": 3770,
+    "kd": 7, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": 3.32, "competition": "LOW",
+    "score": 73, "decision": "HIGH PRI",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "succession planning template",
+    "ca_volume": 170, "us_volume": 1600, "total_volume": 1770,
+    "kd": 0, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": 5.94, "competition": "LOW",
+    "score": 72, "decision": "HIGH PRI",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "SDE vs EBITDA",
+    "ca_volume": 40, "us_volume": 320, "total_volume": 360,
+    "kd": 0, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": 0.02, "competition": "LOW",
+    "score": 53, "decision": "GOOD",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "share sale vs asset sale",
+    "ca_volume": 210, "us_volume": 20, "total_volume": 230,
+    "kd": 0, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": null, "competition": "LOW",
+    "score": 53, "decision": "GOOD",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "employee ownership trust Canada",
+    "ca_volume": 140, "us_volume": 260, "total_volume": 400,
+    "kd": null, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": null, "competition": "LOW",
+    "score": 53, "decision": "GOOD",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "business valuation calculator",
+    "ca_volume": 390, "us_volume": 4400, "total_volume": 4790,
+    "kd": 23, "kd_level": "MODERATE",
+    "trend": "STABLE", "cpc": 3.30, "competition": "MEDIUM",
+    "score": 53, "decision": "GOOD",
+    "content_status": "PARTIAL"
+  },
+  {
+    "keyword": "business valuation methods",
+    "ca_volume": 90, "us_volume": 880, "total_volume": 970,
+    "kd": 17, "kd_level": "MODERATE",
+    "trend": "STABLE", "cpc": null, "competition": "MEDIUM",
+    "score": 48, "decision": "BACKLOG",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "due diligence checklist",
+    "ca_volume": 40, "us_volume": 590, "total_volume": 630,
+    "kd": 26, "kd_level": "MODERATE",
+    "trend": "STABLE", "cpc": 4.93, "competition": "LOW",
+    "score": 45, "decision": "BACKLOG",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "sell my business",
+    "ca_volume": 320, "us_volume": 2400, "total_volume": 2720,
+    "kd": 53, "kd_level": "AVOID",
+    "trend": "FALLING", "cpc": 16.62, "competition": "MEDIUM",
+    "score": 38, "decision": "BACKLOG",
+    "content_status": "PARTIAL"
+  },
+  {
+    "keyword": "business succession plan",
+    "ca_volume": 720, "us_volume": 1900, "total_volume": 2620,
+    "kd": null, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": null, "competition": "LOW",
+    "score": 63, "decision": "GOOD",
+    "content_status": "COVERED"
+  },
+  {
+    "keyword": "how to value a small business",
+    "ca_volume": 50, "us_volume": 720, "total_volume": 770,
+    "kd": 0, "kd_level": "EASY",
+    "trend": "FALLING", "cpc": 2.82, "competition": "MEDIUM",
+    "score": 51, "decision": "GOOD",
+    "content_status": "NO CONTENT"
+  },
+  {
+    "keyword": "how much is my business worth",
+    "ca_volume": 50, "us_volume": 880, "total_volume": 930,
+    "kd": null, "kd_level": "EASY",
+    "trend": "STABLE", "cpc": null, "competition": "MEDIUM",
+    "score": 53, "decision": "GOOD",
+    "content_status": "PARTIAL"
+  }
+]
