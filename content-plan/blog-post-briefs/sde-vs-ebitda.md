@@ -3,6 +3,7 @@
 **Target keyword:** SDE vs EBITDA
 **URL slug:** /blog/sde-vs-ebitda
 **Data:** Volume 360/mo (40 CA + 320 US) | KD 0 | Trend STABLE | CPC $0.02
+**Data source:** DataForSEO (volume/KD) + competitor page analysis (keywords/structure)
 
 ---
 
@@ -12,118 +13,176 @@
 |-----------|-----------|--------|
 | Title (H1) | "SDE vs EBITDA" in title | [ ] |
 | URL slug | `/blog/sde-vs-ebitda` | [ ] |
-| Meta description | Include "SDE vs EBITDA" + value prop | [ ] |
-| First 100 words | Mention "SDE vs EBITDA" naturally in opening paragraph | [ ] |
+| Meta description | "SDE vs EBITDA" + value prop under 155 chars | [ ] |
+| First 100 words | Mention "SDE vs EBITDA" naturally in opening | [ ] |
 | H2 headings | Use in 1-2 subheadings | [ ] |
-| Body text | 3-5 mentions per 1,000 words, naturally | [ ] |
-| Last paragraph | Mention once in conclusion/CTA section | [ ] |
-| Image alt text | "SDE vs EBITDA comparison" on any table/chart image | [ ] |
+| Body text | 3-5 mentions per 1,000 words, natural flow | [ ] |
+| Last paragraph | Mention once in conclusion/CTA | [ ] |
+| Image alt text | "SDE vs EBITDA comparison" on table/chart | [ ] |
 
-## Related Keywords to Include
+---
 
-These terms tell Google your page thoroughly covers the topic. Weave them in naturally throughout the post.
+## Keywords to Include
 
-| Related keyword | Why include it |
-|----------------|---------------|
-| seller's discretionary earnings | Full form of SDE — Google expects this on a comprehensive page |
-| earnings before interest taxes depreciation amortization | Full form of EBITDA |
-| valuation multiple | How SDE/EBITDA are used in practice (multiply by X to get business value) |
-| owner's compensation | The key difference — SDE adds it back, EBITDA doesn't |
-| small business valuation | Context: when to use SDE (businesses under $5M) |
-| business sale | Intent signal: connects valuation method to the sale process |
-| discretionary expenses | What gets added back in SDE calculation |
-| adjusted EBITDA | Common variant searchers may confuse with SDE |
-| valuation methods | Broader context: SDE/EBITDA are two of several methods |
-| business broker | Who typically uses SDE (brokers for small business sales) |
-| private equity | Who typically uses EBITDA (PE firms, larger deals) |
-| owner-operated business | When SDE is the right choice |
-| management team | When EBITDA is the right choice (business runs without owner) |
+### Tier 1: Primary keyword + direct variants (MUST include)
+
+These have real search volume from DataForSEO:
+
+| Keyword | Volume (US) | Where to use |
+|---------|------------|-------------|
+| **SDE vs EBITDA** | 320/mo | Title, URL, intro, headings, conclusion |
+| **EBITDA vs SDE** | 170/mo | Use once as alternate phrasing in body |
+| **seller's discretionary earnings vs EBITDA** | 40/mo | Use once, early in the post |
+
+### Tier 2: Terms top competitors use repeatedly (SHOULD include)
+
+Extracted from the #1 and #4 ranking pages (Midstreet, Kumo). These are the terms Google sees on every page that ranks for this topic — if your page doesn't have them, Google considers your content incomplete.
+
+| Term | Frequency on competitor pages | Where to use |
+|------|------------------------------|-------------|
+| **seller's discretionary earnings** (full form of SDE) | 10+ times on #1 page | Define in intro, use 2-3x in body |
+| **earnings before interest taxes depreciation amortization** (full form) | 5+ times | Define once, abbreviate after |
+| **owner's compensation / owner's salary** | 8+ times on both pages | Core comparison section — this IS the key difference |
+| **net income** | 10+ times | Both calculation sections (SDE and EBITDA start from net income) |
+| **add-backs / adjustments** | 8+ times on #1 | Calculation sections — what gets added back |
+| **valuation multiples / multiples** | 5+ times | Multiples section (SDE 2-3x, EBITDA 4-8x) |
+| **depreciation** | 8+ times | EBITDA calculation |
+| **amortization** | 8+ times | EBITDA calculation |
+| **adjusted EBITDA** | Used on #1 page | Mention once to prevent confusion with SDE |
+| **cash flow** | 4+ times | Intro — both metrics measure cash flow differently |
+| **non-recurring expenses / one-time expenses** | 3+ times | Add-backs section |
+| **owner-operated** | 4+ times | When to use SDE section |
+| **operational performance** | 4+ times | When to use EBITDA section |
+
+### Tier 3: Contextual terms (GOOD to include)
+
+These connect the topic to the reader's actual situation. Not on every competitor page but strengthen the post for our audience.
+
+| Term | Why include | Where |
+|------|-----------|-------|
+| **business sale / selling a business** | Intent signal — reader is considering selling | Intro + CTA |
+| **private equity** | Who uses EBITDA | "Which to use" section |
+| **individual buyer / SBA buyer** | Who uses SDE | "Which to use" section |
+| **business broker** | Who typically applies SDE in deals | Context mention |
+| **small business valuation** | Broader topic context | Intro |
+| **business value / business worth** | What the reader actually wants to know | Throughout naturally |
+
+### What's missing (needs DataForSEO credits to verify)
+
+We don't have exact search volumes for the Tier 2 and Tier 3 terms. When DataForSEO is topped up, run:
+```
+/keyword-discover "seller discretionary earnings, EBITDA valuation, business valuation multiples"
+```
+This will give us volume data to know which of these terms deserve H2 headings (high volume) vs just body mentions (low volume).
+
+---
 
 ## Questions to Answer
 
-From Google "People Also Ask" + Reddit threads. Each should be an H2 or H3 heading.
+From Google "People Also Ask" + competitor FAQ sections + Reddit. Each becomes an H2/H3 heading and FAQ schema entry.
 
-1. **What is the difference between SDE and EBITDA?** — The core comparison. Must answer clearly.
-2. **When should I use SDE vs EBITDA to value my business?** — Decision framework based on business size/type.
-3. **How do you calculate SDE?** — Step-by-step with a real example.
-4. **How do you calculate EBITDA?** — Step-by-step with a real example.
-5. **Which metric gives a higher valuation?** — SDE typically gives higher number because it adds back owner salary. Explain why.
-6. **What are typical SDE and EBITDA multiples?** — SDE: 2-3x for small business. EBITDA: 4-8x for mid-market.
-7. **Can a buyer use a different metric than the seller?** — Yes, and this creates negotiation dynamics.
+| # | Question | Source | Priority |
+|---|----------|--------|----------|
+| 1 | What is the difference between SDE and EBITDA? | Core query — every competitor answers this | Must answer |
+| 2 | When should I use SDE vs EBITDA to value my business? | People Also Ask + all competitor pages | Must answer |
+| 3 | How do you calculate SDE? | Every competitor includes this | Must answer |
+| 4 | How do you calculate EBITDA? | Every competitor includes this | Must answer |
+| 5 | What are typical SDE and EBITDA multiples? | People Also Ask — SDE 2-3x, EBITDA 3-8x | Must answer |
+| 6 | Which metric gives a higher valuation? | Reddit thread (ranked #2 on Google) | Should answer |
+| 7 | What mistakes should I avoid when calculating SDE and EBITDA? | Kumo FAQ section | Should answer |
+| 8 | Can I switch from SDE to EBITDA before selling? | Not on any competitor — our unique content | Good to answer |
+
+---
 
 ## Heading Structure
+
+Based on what ranks #1 (Midstreet) + gaps we fill:
 
 ```
 H1: SDE vs EBITDA: Which Metric Actually Values Your Business?
 
   H2: The Short Answer
-      (Quick comparison for people who just want the answer)
+      (2-3 sentence summary for skimmers — competitors don't do this)
 
   H2: What Is SDE (Seller's Discretionary Earnings)?
     H3: How to Calculate SDE
-    H3: Worked Example: A $2M Revenue Business
+    H3: Worked Example: A $2M Revenue Restaurant
 
   H2: What Is EBITDA?
     H3: How to Calculate EBITDA
-    H3: Worked Example: Same Business, Different Number
+    H3: Worked Example: Same Restaurant, Different Number
 
   H2: SDE vs EBITDA: The Key Differences
-      (Comparison table — side by side)
+      (Side-by-side comparison TABLE — competitors have this, we need it)
 
   H2: Which One Should You Use?
-    H3: Use SDE If... (under $5M revenue, owner-operated)
-    H3: Use EBITDA If... (over $5M, has management team)
-    H3: The Grey Zone: $1M-$5M in Earnings
+    H3: Use SDE If Your Business Earns Under $1M
+    H3: Use EBITDA If Your Business Earns Over $1.5M
+    H3: The Grey Zone: $1M–$1.5M in Earnings
 
   H2: How Each Metric Affects Your Sale Price
-      (SDE × 2-3x vs EBITDA × 4-8x — show the math)
+      (THIS IS OUR DIFFERENTIATOR — show the exact dollar difference)
+      Example: Same business, SDE × 2.5x = $1.25M vs EBITDA × 5x = $1.5M
 
-  H2: What Buyers Actually Care About
-      (Bridge from theory to practice)
+  H2: What Buyers Actually Look At
+      (Individual buyer → SDE, PE firm → EBITDA, strategic → EBITDA)
 
   H2: FAQ
     H3: Which metric gives a higher valuation?
+    H3: What are typical multiples for my industry?
     H3: Can I switch from SDE to EBITDA before selling?
-    H3: What multiple should I expect for my industry?
 
   H2: Next Step: Find Out What Your Business Is Worth
-      (CTA section)
+      (CTA → valuation tool)
 ```
 
-## Competitor Gap
+### What we cover that competitors DON'T:
+- "The Short Answer" — no competitor gives a quick answer upfront
+- Worked examples with the SAME business valued both ways — shows dollar impact
+- Specific revenue thresholds ($1M, $1.5M) as decision points — competitors keep it vague
+- "Can I switch" question — nobody answers this
 
-| What top 3 competitors cover | What they miss (our opportunity) |
-|------------------------------|--------------------------------|
-| Basic definitions of SDE and EBITDA | No worked examples with real numbers showing the actual dollar difference |
-| General guidance on when to use each | No specific revenue thresholds ($5M breakpoint) — they keep it vague |
-| Theoretical comparison | No connection to actual sale price impact — "here's how this changes your payout by $500K" |
-| Written for accountants/brokers | Not written for the business owner who just heard these terms for the first time |
-| Text-only explanations | No comparison table, no visual, no calculator |
+---
 
-**Our differentiator:** Use a concrete example — take one business, show it valued with SDE then with EBITDA, show the dollar difference. Make the reader say "oh, THAT'S why this matters."
+## Competitor Gap Analysis
+
+| What #1 (Midstreet) covers | What they miss |
+|---------------------------|---------------|
+| Clear SDE and EBITDA definitions | No worked example showing dollar difference side-by-side |
+| When to use each metric | Vague on thresholds ("businesses with $1.5M+ in earnings") |
+| Multiples ranges (2-3x SDE, 3-6x EBITDA) | No calculation showing how this changes payout |
+| Add-backs explanation | Doesn't explain non-obvious add-backs founders miss |
+| | No "short answer" for skimmers — forces you to read everything |
+| | Written for informed readers, not first-timers hearing these terms |
+
+---
 
 ## Internal Links
 
 | Link TO this post (from existing pages) | Link FROM this post (to existing pages) |
 |-----------------------------------------|-----------------------------------------|
-| /blog/selling-your-business-guide → mention SDE/EBITDA, link to this post | This post → /valuation (CTA: "Get your free valuation") |
-| /blog/succession-planning-complete-guide → link where valuation is discussed | This post → /blog/selling-your-business-guide (for readers ready to sell) |
-| /sell-business page → could add a resource link | This post → /contact (for readers who want help) |
+| /blog/selling-your-business-guide → where valuation is mentioned | This post → /valuation ("Get a free valuation") |
+| /blog/succession-planning-complete-guide → where business value is discussed | This post → /blog/selling-your-business-guide |
+| /sell-business → resource section if one exists | This post → /contact |
+
+---
 
 ## CTA
 
-**Primary CTA:** "Not sure which metric applies to your business? Get a free AI-powered valuation."
-**Link to:** /valuation
-**Placement:** After the main content, before FAQ section. Secondary mention in the conclusion.
+**Primary:** "Not sure which metric applies to your business? Get a free AI-powered valuation."
+**Link:** /valuation
+**Placement:** After main content, before FAQ. Secondary mention in conclusion.
 
-## KPIs — How to Measure Success
+---
+
+## KPIs
 
 | KPI | Target | Timeline |
 |-----|--------|----------|
 | Google ranking for "SDE vs EBITDA" | Page 1 (top 10) | 2-4 weeks (KD = 0) |
-| Target position | #1-3 | 4-8 weeks |
-| Organic traffic from this keyword | 50-110 visits/mo | After ranking stabilizes |
+| Target position | #1-3 (Reddit is currently #2) | 4-8 weeks |
+| Organic traffic | 50-110 visits/mo | After ranking stabilizes |
 | Time on page | > 3 minutes | Ongoing |
 | Bounce rate | < 60% | Ongoing |
-| Valuation tool clicks from this post | > 5% of visitors | Ongoing |
-| FAQ rich result in Google | Visible | 2-4 weeks after indexing |
+| Valuation tool clicks | > 5% of visitors | Ongoing |
+| FAQ rich result visible in Google | Yes | 2-4 weeks after indexing |
