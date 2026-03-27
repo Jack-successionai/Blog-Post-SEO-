@@ -36,7 +36,12 @@ Blog-Post-SEO-/
 ├── content-plan/
 │   ├── publishing-order.md      ← What to write and when
 │   └── blog-post-briefs/        ← Individual keyword blueprints per post
-│       └── sde-vs-ebitda.md     ← First brief (ready to write)
+│       ├── sde-vs-ebitda.md     ← SDE vs EBITDA brief
+│       └── lifetime-capital-gains-exemption.md ← LCGE brief
+├── posts/                       ← Published blog post content (markdown)
+│   └── lifetime-capital-gains-exemption.md ← LCGE post (published 2026-03-27)
+├── templates/
+│   └── blog-post-layout.md      ← Design layout + SEO structure template
 ├── technical-seo/
 │   └── completed.md             ← Technical SEO work done
 └── .claude/skills/              ← The 5 Claude Code skills
@@ -50,7 +55,10 @@ Blog-Post-SEO-/
 ## Quick Links
 
 - [What to write next →](content-plan/publishing-order.md)
-- [First blog brief (SDE vs EBITDA) →](content-plan/blog-post-briefs/sde-vs-ebitda.md)
+- [Blog post layout template →](templates/blog-post-layout.md)
+- [LCGE blog brief →](content-plan/blog-post-briefs/lifetime-capital-gains-exemption.md)
+- [LCGE published post →](posts/lifetime-capital-gains-exemption.md)
+- [SDE vs EBITDA brief →](content-plan/blog-post-briefs/sde-vs-ebitda.md)
 - [Latest keyword research →](research/2026-03-26/recommendations.md)
 - [How our scoring model works →](strategy/scoring-model.md)
 - [Content pipeline (5 skills) →](strategy/content-pipeline.md)
