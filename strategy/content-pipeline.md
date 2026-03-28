@@ -111,12 +111,15 @@ You can also re-run individual skills:
 
 ## Pipeline location
 
-Skills are stored in the main app repo: `/Users/jack0518/app/.claude/skills/`
+Skills are stored in `.claude/skills/`:
 - `keyword-discover/SKILL.md`
 - `keyword-score/SKILL.md`
 - `keyword-compete/SKILL.md`
 - `keyword-recommend/SKILL.md`
+- `seo-analyze/SKILL.md` (performance monitoring + flywheel)
+- `seo-next-post/SKILL.md` (data-driven content planning)
+- `blog-brief/SKILL.md` (writing blueprint from keyword)
 
-Research outputs are stored in: `/Users/jack0518/app/keyword-research/YYYY-MM-DD/`
+Research outputs are stored in: `$PROJECT_ROOT/keyword-research/YYYY-MM-DD/`
 
-DataForSEO credentials: `/Users/jack0518/app/.env`
+DataForSEO credentials: `$PROJECT_ROOT/.env` (not committed — create locally)

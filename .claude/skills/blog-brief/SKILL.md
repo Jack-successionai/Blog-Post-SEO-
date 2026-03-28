@@ -25,10 +25,10 @@ This skill answers: "HOW should we write the post to rank for that topic?"
 
 ## Config
 
-- Credentials: `source /Users/jack0518/Blog-Post-SEO-/.env`
+- Credentials: `source $PROJECT_ROOT/.env`
 - Input: keyword from `/keyword-recommend` output OR user-provided keyword
-- Competition data: `/Users/jack0518/Blog-Post-SEO-/research/YYYY-MM-DD/competition.md`
-- Output: `/Users/jack0518/Blog-Post-SEO-/content-plan/blog-post-briefs/[keyword-slug].md`
+- Competition data: `$PROJECT_ROOT/research/YYYY-MM-DD/competition.md`
+- Output: `$PROJECT_ROOT/content-plan/blog-post-briefs/[keyword-slug].md`
 
 ## Steps
 
@@ -44,7 +44,7 @@ Google doesn't just look for your exact keyword. It expects a page about "SDE vs
 
 **API call:**
 ```bash
-source /Users/jack0518/Blog-Post-SEO-/.env
+source $PROJECT_ROOT/.env
 curl -s -X POST "https://api.dataforseo.com/v3/keywords_data/google_ads/keywords_for_keywords/live" \
   -H "Content-Type: application/json" \
   -u "$DATAFORSEO_LOGIN:$DATAFORSEO_PASSWORD" \
@@ -105,7 +105,7 @@ H1: [Title with primary keyword]
 
 ### 6. Output the brief
 
-Save to `/Users/jack0518/Blog-Post-SEO-/content-plan/blog-post-briefs/[keyword-slug].md`
+Save to `$PROJECT_ROOT/content-plan/blog-post-briefs/[keyword-slug].md`
 
 ## Output format
 

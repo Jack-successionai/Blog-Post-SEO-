@@ -14,8 +14,9 @@ Expand seed topics into a filtered list of relevant keywords for Succession AI.
 
 ## Config
 
-- Credentials: `source /Users/jack0518/Blog-Post-SEO-/.env` (exports `$DATAFORSEO_LOGIN`, `$DATAFORSEO_PASSWORD`)
-- Output: `/Users/jack0518/Blog-Post-SEO-/research/YYYY-MM-DD/`
+- Credentials: `source $PROJECT_ROOT/.env` (exports `$DATAFORSEO_LOGIN`, `$DATAFORSEO_PASSWORD`)
+- Output: `$PROJECT_ROOT/keyword-research/YYYY-MM-DD/`
+- `$PROJECT_ROOT`: Resolve via `git rev-parse --show-toplevel` at start of every run
 - Location codes: Canada = 2124, US = 2840
 - API cost: ~$0.075 per seed (~$0.40 for 5 seeds)
 
@@ -34,10 +35,13 @@ Always include unless user overrides. If user provides extras, ADD to this list.
 ### 1. Setup
 
 ```bash
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
 TODAY=$(date +%Y-%m-%d)
-mkdir -p /Users/jack0518/Blog-Post-SEO-/research/$TODAY
-source /Users/jack0518/Blog-Post-SEO-/.env
+mkdir -p "$PROJECT_ROOT/keyword-research/$TODAY"
+source "$PROJECT_ROOT/.env"
 ```
+
+If `.env` does not exist or credentials are empty, fail immediately with: "DataForSEO credentials not found. Create $PROJECT_ROOT/.env with DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD."
 
 ### 2. Discover keywords
 

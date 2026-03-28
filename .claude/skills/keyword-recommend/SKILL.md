@@ -14,10 +14,14 @@ Read all pipeline data and produce "write these 5 next" with real data behind ev
 
 ## Config
 
-- Input: latest `/Users/jack0518/Blog-Post-SEO-/research/YYYY-MM-DD/` containing `scored.json`, `competition.md`
-- Blog posts: `/Users/jack0518/app/landing/lib/blog.ts`
+- Input: latest `$PROJECT_ROOT/keyword-research/YYYY-MM-DD/` containing `scored.json`, `competition.md`
+- Blog posts: `$PROJECT_ROOT/landing/lib/blog.ts`
 - Output: same directory → `recommendations.md`
 - Existing tool: Succession AI has a free AI-powered business valuation tool at `/valuation`
+- **Flywheel files (READ before recommending):**
+  - `$PROJECT_ROOT/docs/content-playbook.md` — rules for content (KD targets, structure, format)
+  - `$PROJECT_ROOT/docs/seo-learnings.md` — what patterns work (tool posts, Canadian content, etc.)
+  - `$PROJECT_ROOT/docs/seo-performance-log.md` — historical performance data
 
 ## Steps
 
@@ -27,7 +31,13 @@ From the most recent date directory:
 - `scored.json` — keywords with volume, KD, trend, CPC, score, decision, content_status
 - `competition.md` — SERP results, Reddit threads, gap analysis
 
-Also read `/Users/jack0518/app/landing/lib/blog.ts` for existing content (slugs, titles, keywords arrays).
+Also read:
+- `$PROJECT_ROOT/landing/lib/blog.ts` for existing content (slugs, titles, keywords arrays)
+- `$PROJECT_ROOT/docs/content-playbook.md` for content rules and selection criteria
+- `$PROJECT_ROOT/docs/seo-learnings.md` for patterns (prioritize keywords matching winning patterns)
+- `$PROJECT_ROOT/docs/seo-performance-log.md` for historical context (what's working, what's not)
+
+**Apply playbook rules when selecting keywords** — e.g., KD thresholds, volume floors, funnel stage mix, Canadian keyword preference. If a recommendation conflicts with a playbook rule, note why you're overriding it.
 
 ### 2. Select top 5 keywords
 

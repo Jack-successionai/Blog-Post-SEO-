@@ -14,8 +14,9 @@ Check who ranks and validate with Reddit for the top keywords from `/keyword-sco
 
 ## Config
 
-- Credentials: `source /Users/jack0518/Blog-Post-SEO-/.env`
-- Input: latest `/Users/jack0518/Blog-Post-SEO-/research/YYYY-MM-DD/scored.json`
+- Credentials: `source $PROJECT_ROOT/.env`
+- Input: latest `$PROJECT_ROOT/keyword-research/YYYY-MM-DD/scored.json`
+- `$PROJECT_ROOT`: Resolve via `git rev-parse --show-toplevel` at start of every run
 - Output: same directory → `competition.md`
 - API cost: ~$0.03-0.05 per run
 
@@ -30,7 +31,8 @@ Read latest `scored.json`. Take **top 10 by score** where decision is WRITE NOW 
 Batch keywords into one request where possible:
 
 ```bash
-source /Users/jack0518/Blog-Post-SEO-/.env
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+source "$PROJECT_ROOT/.env"
 curl -s -X POST "https://api.dataforseo.com/v3/serp/google/organic/live/regular" \
   -H "Content-Type: application/json" \
   -u "$DATAFORSEO_LOGIN:$DATAFORSEO_PASSWORD" \

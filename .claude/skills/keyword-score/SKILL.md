@@ -14,24 +14,26 @@ Pull volume (CA+US), difficulty, and trend for each keyword. Score and rank them
 
 ## Config
 
-- Credentials: `source /Users/jack0518/Blog-Post-SEO-/.env`
-- Input: latest `/Users/jack0518/Blog-Post-SEO-/research/YYYY-MM-DD/discovered.json`
+- Credentials: `source $PROJECT_ROOT/.env`
+- Input: latest `$PROJECT_ROOT/keyword-research/YYYY-MM-DD/discovered.json`
 - Output: same directory → `scored.json` + `scored.md`
-- Blog posts: `/Users/jack0518/app/landing/lib/blog.ts`
+- Blog posts: `$PROJECT_ROOT/landing/lib/blog.ts`
 - API cost: ~$0.15-0.25 per run
+- `$PROJECT_ROOT`: Resolve via `git rev-parse --show-toplevel` at start of every run
 
 ## Steps
 
 ### 1. Load input
 
-Find the most recent date directory in `/Users/jack0518/Blog-Post-SEO-/research/`. Read `discovered.json`.
+Find the most recent date directory in `$PROJECT_ROOT/keyword-research/` by sorting `YYYY-MM-DD` directory names. Read `discovered.json`. If no date directories exist, fail with: "No keyword data found. Run `/keyword-discover` first."
 
 ### 2. Get volume — TWO separate calls (Canada + US)
 
 Batch up to 50 keywords per request. If > 50 keywords, split into multiple requests.
 
 ```bash
-source /Users/jack0518/Blog-Post-SEO-/.env
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+source "$PROJECT_ROOT/.env"
 
 # Canada
 curl -s -X POST "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live" \
@@ -106,7 +108,7 @@ TOTAL = VOLUME + RANKABILITY + TREND + INTENT (max 100)
 
 ### 6. Content gap check
 
-Read `/Users/jack0518/app/landing/lib/blog.ts`. Extract each post's `slug`, `title`, `keywords[]`.
+Read `$PROJECT_ROOT/landing/lib/blog.ts`. Extract each post's `slug`, `title`, `keywords[]`. If file cannot be read, set all content_status to "UNKNOWN" and continue.
 
 Match each scored keyword against blog posts (case-insensitive):
 - **COVERED** — keyword appears in a post's `keywords` array OR slug directly targets it
