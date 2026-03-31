@@ -19,9 +19,9 @@ Ingest performance data, detect patterns, update the flywheel files, and output 
 
 ## Persistent Files (READ first, UPDATE at end)
 
-1. **Performance log:** `$PROJECT_ROOT/docs/seo-performance-log.md` — historical snapshots
-2. **Learnings:** `$PROJECT_ROOT/docs/seo-learnings.md` — confirmed/emerging patterns
-3. **Playbook:** `$PROJECT_ROOT/docs/content-playbook.md` — rules for content creation
+1. **Performance log:** `$PROJECT_ROOT/strategy/seo-performance-log.md` — historical snapshots
+2. **Learnings:** `$PROJECT_ROOT/strategy/seo-learnings.md` — confirmed/emerging patterns
+3. **Playbook:** `$PROJECT_ROOT/strategy/content-playbook.md` — rules for content creation
 
 ## Data Sources
 
@@ -42,6 +42,14 @@ Check if pages are indexed and what Google shows. This is the lightweight "daily
 
 ### Option D: User provides a GSC/GA4 export file
 Read the file and parse it.
+
+### Option E: Pull live data from Rybbit
+If the user says "pull from rybbit", "use rybbit", or "check traffic":
+1. Read `$PROJECT_ROOT/.env` for `RYBBIT_API_KEY`, `RYBBIT_SITE_ID`, `RYBBIT_BASE_URL`
+2. Pull overview, page-titles, referrer, and country data via curl (see `/rybbit-analyze` skill for API patterns)
+3. Rybbit provides: sessions, pageviews, users, pages/session, bounce rate, session duration, per-page time-on-page, referrer breakdown, geo breakdown
+4. Rybbit does NOT provide: GSC impressions, keyword rankings, CTR, avg position — note these gaps in the output
+5. Combine Rybbit data with any GSC data the user provides for the fullest picture
 
 ## Analysis Steps
 
