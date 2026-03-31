@@ -19,11 +19,11 @@ Use all accumulated SEO intelligence to plan the optimal next blog post.
 
 ## Persistent Files (READ all before starting)
 
-1. **Performance log:** `$PROJECT_ROOT/docs/seo-performance-log.md`
-2. **Learnings:** `$PROJECT_ROOT/docs/seo-learnings.md`
-3. **Playbook:** `$PROJECT_ROOT/docs/content-playbook.md`
-4. **Backlink strategy:** `$PROJECT_ROOT/docs/backlink-strategy.md`
-5. **Content strategy:** `$PROJECT_ROOT/content-seo-strategy.md`
+1. **Performance log:** `$PROJECT_ROOT/strategy/seo-performance-log.md`
+2. **Learnings:** `$PROJECT_ROOT/strategy/seo-learnings.md`
+3. **Playbook:** `$PROJECT_ROOT/strategy/content-playbook.md`
+4. **Backlink strategy:** `$PROJECT_ROOT/strategy/backlink-strategy.md`
+5. **Content pipeline:** `$PROJECT_ROOT/strategy/content-pipeline.md`
 
 ## Data Sources
 
@@ -32,6 +32,7 @@ Use all accumulated SEO intelligence to plan the optimal next blog post.
    - `scored.json` — keyword scores
    - `competition.md` — SERP analysis
    - `recommendations.md` — previous recommendations
+8. **Rybbit traffic data:** If the performance log contains Rybbit snapshots, use per-page metrics (time-on-page, pageviews, bounce rate) to weight recommendations. Pages with high time-on-page signal strong content patterns to replicate. Pages with low traffic but high engagement are underexposed topics worth doubling down on.
 
 ## Steps
 

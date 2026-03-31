@@ -75,3 +75,4 @@ What makes our posts different from competitors:
 | Date | Change | Source |
 |------|--------|--------|
 | 2026-03-27 | Initial playbook created | Seeded from LCGE post validation + competitor analysis |
+| 2026-03-31 | Added Rybbit analytics as data source | First real traffic data integrated into flywheel |
