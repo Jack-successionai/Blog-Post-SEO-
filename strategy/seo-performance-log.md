@@ -28,7 +28,7 @@ Each entry is a point-in-time snapshot. Compare across dates to spot trends. Ent
 | Page | Status | Published | Target Keywords |
 |------|--------|-----------|----------------|
 | /blog/lifetime-capital-gains-exemption | Live | 2026-03-27 | LCGE, capital gains exemption Canada |
-| /blog/sde-vs-ebitda | Live | 2026-03-27 | SDE vs EBITDA, business valuation metrics |
+| /blog/sde-vs-ebitda | Published | 2026-03-31 | SDE vs EBITDA, business valuation metrics |
 | /blog/selling-your-business-guide | Live | 2026-03-05 | selling your business, how to sell a business |
 | /blog/succession-planning-guide | Live | 2026-03-06 | succession planning, small business succession plan |
 | /blog/succession-planning-complete-guide | Live | 2026-03-05 | business succession planning, business exit planning |
